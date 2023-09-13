@@ -49,6 +49,7 @@ assign diff = (a^b);
 assign borr = ((~a)&b);
 endmodule
 ```
+
 ```
 # Full Subtractor:
 module fullsubtractor(a,b,bin,diff,borr);
@@ -63,13 +64,15 @@ endmodule
 ## Output:
 1.RTL
 HALF SUBTRACTOR
+
 ![image](https://github.com/swathidd/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/121300272/7bcf5083-5166-47ba-a35f-ddba4500dc6f)
 
 FULL SUBTRACTOR
+
 ![image](https://github.com/swathidd/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/121300272/dfaec6b5-98e2-4209-9c01-5b8c092ddc7b)
 
-# TRUTH TABLE 
-HALF SUBTRACTOR
+# TRUTH TABLE
+ HALF SUBTRACTOR
 
 ![image](https://github.com/swathidd/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/121300272/45de0aaf-36c4-4adb-ae32-faf902e49702)
 
