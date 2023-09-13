@@ -1,7 +1,7 @@
-Developed by:D.SWATHI
-RegisterNumber:212222230154
+# Developed by:D.SWATHI
+# RegisterNumber:212222230154
 # Experiment-04-Half-Subtractor-and-Full-subtractor
-## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
+
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -48,6 +48,8 @@ output diff,borr;
 assign diff = (a^b);
 assign borr = ((~a)&b);
 endmodule
+```
+```
 # Full Subtractor:
 module fullsubtractor(a,b,bin,diff,borr);
 input a,b,bin;
